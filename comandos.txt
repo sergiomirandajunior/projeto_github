@@ -1,15 +1,23 @@
 -> Primeiros passos
 
+-> add repositorio remoto - Guthub
+git remote add origin https://github.com/sergiomirandajunior/projeto_github.git
 
 -> Inicializando repositorio 
 git init 
 
--> add arquivos e salvar 
-git add .
-git commit -m "first commit"
-
--> add repositorio remoto - Guthub
-git remote add origin https://github.com/sergiomirandajunior/projeto_github.git
+-----> sempre depois que editar salvar ctrl s 
+-> depois add arquivos e salvar 
+digitar na parte debaixo: git add .
+depois: git commit -m "first commit"
 
 -> enviar
 git push -u origin main
+
+
+
+SOMENTE SEGUIR A TRIADE:
+
+git add .
+git commit -m "o que foi feito"
+git push
