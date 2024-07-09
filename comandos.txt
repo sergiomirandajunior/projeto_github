@@ -1,0 +1,15 @@
+-> Primeiros passos
+
+
+-> Inicializando repositorio 
+git init 
+
+-> add arquivos e salvar 
+git add .
+git commit -m "first commit"
+
+-> add repositorio remoto - Guthub
+git remote add origin https://github.com/sergiomirandajunior/projeto_github.git
+
+-> enviar
+git push -u origin main
